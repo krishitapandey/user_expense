@@ -13,7 +13,6 @@ Create a .env file in the root directory and add:
    ```bash
    ACCESS_TOKEN_SECRET=your_secret_key_here 
    PORT=3000
-   
 
 3. **Run Application:**
 
