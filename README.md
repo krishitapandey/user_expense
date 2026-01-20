@@ -1,4 +1,4 @@
-# Internal Expense Management System
+# User Expense Management System
 
 ## 🚀 Quick Start
 
