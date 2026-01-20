@@ -1,6 +1,6 @@
 # Internal Expense Management System
 
-A modular Node.js backend designed for organizations to manage staff expenses, automate budget tracking, and generate financial reports.
+
 
 ## 🚀 Quick Start
 
