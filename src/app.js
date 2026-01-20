@@ -4,6 +4,7 @@ const { z } = require('zod');
 const UserService = require('./modules/users/user.service');
 const ExpenseService = require('./modules/expenses/expense.service');
 const { authenticate, authorize } = require('./middleware/auth');
+const port = process.env.PORT || 3000;
 
 const app = express();
 
@@ -129,4 +130,4 @@ app.use((err, req, res, next) => {
   });
 });
 
-app.listen(3000, () => console.log('System ready on port 3000'));
+app.listen(port, () => console.log(`System ready on port ${port}`));
