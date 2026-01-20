@@ -1,12 +1,18 @@
-🚀 Quick Start
-Install Dependencies: npm install
+# Internal Expense Management System
 
-Setup Environment: Create a .env file and add:
+A modular Node.js backend designed for organizations to manage staff expenses, automate budget tracking, and generate financial reports.
 
-Code snippet
+## 🚀 Quick Start
 
-ACCESS_TOKEN_SECRET=your_secret_key
+1. **Install Dependencies:**
+
+   ```bash
+   npm install
+
+2. **Setup Environment:**
+Create a .env file in the root directory and add:
+ACCESS_TOKEN_SECRET=your_secret_key_here
 PORT=3000
-Run Application: node app.js
 
-(The system automatically initializes a data.sqlite file on the first run.)
+3. **Run Application::**
+node app.js
